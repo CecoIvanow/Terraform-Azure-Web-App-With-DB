@@ -47,3 +47,8 @@ variable "repo_URL" {
   type        = string
   description = "Repository URL for the application code"
 }
+
+variable "subscription_id" {
+  type        = string
+  description = "Subscription ID for Azure"
+}
